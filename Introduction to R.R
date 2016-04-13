@@ -161,6 +161,12 @@ my_pois
 cm <- colMeans(my_pois)
 hist(cm)
 
+#An example using the poisson prob distribution
+#including data on the number of flyinrg-bomb hits in the south of London during World War II.
+rpois(576, 0.9323)
+#Lambda=537/576=0.9323; which is the number of bomb hits divided by the area.
+hist(rpois(576, 0.9323)
+
 
 #MISSING VALUES INTRO
 x <- c(44, NA, 5, NA)
